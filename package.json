@@ -1,0 +1,29 @@
+{
+  "name": "mockloadsresults",
+  "description": "Mock Loads test results.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Peter deHaan",
+    "url": "http://nodeexamples.com/"
+  },
+  "bugs": "https://github.com/pdehaan/MockLoadsResults/issues",
+  "dependencies": {
+    "duration-js": "3.3.4",
+    "humanize-duration": "2.0.1"
+  },
+  "homepage": "https://github.com/pdehaan/MockLoadsResults",
+  "keywords": [
+    "loads",
+    "mock"
+  ],
+  "license": {
+    "type": "MPL2",
+    "url": "https://raw.githubusercontent.com/pdehaan/MockLoadsResults/master/LICENSE"
+  },
+  "main": "index.js",
+  "repository": "pdehaan/MockLoadsResults",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
