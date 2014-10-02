@@ -1,13 +1,22 @@
 {
   "name": "loads-tmp",
   "description": "Testing the mock loads data module.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/MockLoadsResults/issues",
   "dependencies": {
     "mockloadsresults": "pdehaan/MockLoadsResults"
   },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/MockLoadsResults/tree/master/test",
+  "keywords": [
+    "loads",
+    "mock",
+    "test"
+  ],
   "license": "WTFPL",
   "main": "index.js",
+  "repository": "pdehaan/MockLoadsResults",
   "scripts": {
     "start": "node index",
     "test": "eslint ."
