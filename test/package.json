@@ -1,0 +1,15 @@
+{
+  "name": "loads-tmp",
+  "description": "Testing the mock loads data module.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "dependencies": {
+    "mockloadsresults": "pdehaan/MockLoadsResults"
+  },
+  "license": "WTFPL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}

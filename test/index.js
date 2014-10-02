@@ -1,4 +1,4 @@
-var makeResults = require("../index").makeResults;
+var makeResults = require("mockloadsresults").makeResults;
 
 var active = makeResults(true, 2); // generates 2 active loads results
 var inactive = makeResults(false); // generates 10 (default) inactive loads results
